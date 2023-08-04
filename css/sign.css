@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+/* ////////////HOME//////////// */
+
+.container-fluid{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.521),rgba(0, 0, 0, 0.521)), url("../images/mainimg/SSScreenshot\ 2023-07-23\ 232209.png");
+    background-size: cover;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+.firstcont{
+    grid-template-columns: 2fr 1fr;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.firstcontimg img{
+    background-color: transparent;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 90px;
+    color: red;
+}
+.firstcontoptions{
+    margin-left: 450px;
+    display: flex;
+    gap: 30px;
+    margin-right: 80px;
+    margin-top: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.firstcontoptions a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+.topoption1{
+    background-color: rgb(255, 217, 0);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    margin-bottom: 46px;
+}
+.topoption2{
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    margin-bottom: 46px;
+}
+.topoption3{
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 46px;
+}
+.firstcontoptions a:hover{
+    color: black;
+}
+.topoption1{
+    box-shadow: 0px 1px 8px 2px rgba(0,0,0,0.69);
+}
+.topoption2:hover{
+    box-shadow: 0px 1px 8px 2px rgba(0,0,0,0.69);
+}
+.topoption3:hover{
+    box-shadow: 0px 1px 8px 2px rgba(0,0,0,0.69);
+}
+ 
+/* //////////signin//////////// */
+
+
+
+body{
+  background: #fff;
+  font-family: 'PT Sans', sans-serif;
+}
+h2{
+  padding-top: 1.5rem;
+}
+a{
+  color: #333;
+}
+a:hover{
+  color: #da5767;
+  text-decoration: none;
+}
+.card{
+  border: 0.40rem solid #f8f9fa;
+  top: 10%;
+}
+.form-control{
+  background-color: #f8f9fa;
+  padding: 20px;
+  padding: 25px 15px;
+  margin-bottom: 1.3rem;
+}
+
+.form-control:focus {
+
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #da5767;
+    outline: 0;
+    box-shadow: none;
+
+}
+
+.btn{
+  padding: 0.6rem 1.2rem;
+  background: #da5767;
+  border: 2px solid #da5767;
+}
+.btn-primary:hover {
+
+    
+    background-color: #df8c96;
+    border-color: #df8c96;
+  transition: .3s;
+
+}
+@media (min-width:300px) and (max-width:575.98px){
+  .firstcontimg img{
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+}
