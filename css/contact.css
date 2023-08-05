@@ -110,14 +110,16 @@
 @media (min-width:300px) and (max-width:575.98px){
     .firstcontoptions{
         margin: auto;
-        display: flex;
-        margin-right: 10px;
-        margin-top: 50px;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
     }
     .firstcontimg img{
         width: 60%;
-        margin-top: 10px;
-        margin-left: 50px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-left: 17%;
     }
     .firstcont{
         display: inline;
@@ -151,14 +153,17 @@
         box-shadow: 0px 1px 8px 2px rgba(0,0,0,0.69);
     }
     .helpandsupp{
-        margin-top: 100px;
-        margin-left: 55px;
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: center;
+        /* margin-top: 100px;
+        margin-left: 55px; */
     }
     .helpandsupp .help{
-        font-size: 40px;
+        font-size: 50px;
     }
     .helpandsupp .supp{
-        font-size: 40px;
+        font-size: 55px;
     }
     .helpflexsupp{
         display: inline;
